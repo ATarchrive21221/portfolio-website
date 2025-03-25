@@ -140,6 +140,40 @@ body {
     margin: 40px auto 60px;
   }
   
+/* Style the Play Button to match your theme */
+.play-btn {
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  background-color: #4791d0; /* Same as your other buttons */
+  padding: 8px 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.play-btn:hover {
+  background-color: #71c9ce;
+  transform: scale(1.05);
+}
+
+/* Make the video responsive */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  margin: 20px auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 8px;
+}
+
+
+
   .btn {
     border-radius: 5px;
     color: white;
