@@ -13,7 +13,7 @@ body {
     font-family: Oooh Baby, cursive;
     font-weight: normal;
     line-height: 2;
-    color: #66bfbf;
+    color: #1a8f8f;
     z-index: 2;
   }
   
@@ -39,11 +39,11 @@ body {
   
   .top-container {
     height: 710px;
-    background-color: #D7E9F7;
+    background-color: #7baed4;
   }
   
   .middle-container {
-    background-color: #D1E8E4;
+    background-color: #b6e4dc;
   }
   
   .profile {
@@ -51,7 +51,7 @@ body {
   }
   
   .profile-pic {
-    border: 6px solid #000000;
+    border: 6px solid #3a8e9c;
     border-radius: 50%;
     width: 15%;
     margin-top: 2.0rem;
@@ -177,7 +177,7 @@ body {
   .btn {
     border-radius: 5px;
     color: white;
-    background-color: #4791d0;
+    background-color: #77a0c4;
     padding: 5px 10px 8px 10px;
     text-decoration: none;
   }
